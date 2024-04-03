@@ -1,0 +1,31 @@
+{
+  "name": "asadriaz419-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "asadriaz419-calculator": "dist/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafizasad419/simple-CLI-calculator.git"
+  },
+  "keywords": [],
+  "author": "Asad Riaz",
+  "license": "ISC",
+  "description": "<<<<<<< HEAD\r # simple-CLI-calculator\r A Simple CLI Calculator Assignment Repository To Practice TypeScript. Inspired From @Panaverse\r =======\r # Calculator CLI",
+  "bugs": {
+    "url": "https://github.com/hafizasad419/simple-CLI-calculator/issues"
+  },
+  "homepage": "https://github.com/hafizasad419/simple-CLI-calculator#readme"
+}
