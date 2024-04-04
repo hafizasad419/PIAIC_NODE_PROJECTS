@@ -1,9 +1,20 @@
 #!/usr/bin/env node
 import inquirer from "inquirer";
+console.log(`Welcome To Asad's Calcualator`);
 
 const answer = await inquirer.prompt([
-    { message: "Enter First number", type: "number", name: "firstNumber" },
-    { message: "Enter second number", type: "number", name: "secondNumber" },
+    {
+        message: "Enter First number",
+        type: "number",
+        name: "firstNumber"
+    },
+
+    {
+        message: "Enter second number",
+        type: "number",
+        name: "secondNumber"
+    },
+
     {
         message: "select one of the operators to perform action",
         type: "list",
