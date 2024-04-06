@@ -1,6 +1,6 @@
 import inquirer from 'inquirer';
 
-// Define the Customer class
+// Customer class
 class Customer {
     name: string;
     address: string;
@@ -13,7 +13,7 @@ class Customer {
     }
 }
 
-// Define the BankAccount interface
+// BankAccount interface
 interface BankAccount {
     accountNumber: string;
     balance: number;
@@ -24,7 +24,7 @@ interface BankAccount {
     displayBalance(): void;
 }
 
-// Implement the BankAccount interface
+// Implementing the BankAccount interface
 class MyBankAccount implements BankAccount {
     accountNumber: string;
     balance: number;
@@ -57,7 +57,7 @@ class MyBankAccount implements BankAccount {
     }
 }
 
-// Prompt the user for actions using inquirer
+// Prompting the user for actions using inquirer
 function promptAction(account: MyBankAccount): void {
     inquirer.prompt([
         {
@@ -103,8 +103,9 @@ function promptAction(account: MyBankAccount): void {
     });
 }
 
-// Test the code
-const customer1 = new Customer("John Doe", "123 Main St", "123456");
+// Testing the code
+const customer1 = new Customer("Asad Riaz", "123 Main St", "123456");
 const account1 = new MyBankAccount("123456", 1000);
 
+console.log("Customer Name:", customer1.name);
 promptAction(account1);
