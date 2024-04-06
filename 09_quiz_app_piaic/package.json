@@ -1,0 +1,21 @@
+{
+  "name": "09_quiz_app_piaic",
+  "version": "1.0.0",
+  "description": "A simple cli quiz app",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": "dist/index.js",
+  "scripts": {
+    "test": "npx 09_quiz_app_piaic"
+  },
+  "author": "Asad Riaz",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.5"
+  }
+}
