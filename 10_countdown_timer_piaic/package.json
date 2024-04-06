@@ -1,0 +1,26 @@
+{
+  "name": "10_countdown_timer_piaic",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": "dist/index.js",
+
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.17",
+    "timers": "^0.1.1"
+  },
+
+
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Asad Riaz",
+  "license": "ISC",
+  "description": "A simple cli countdown timer"
+}
